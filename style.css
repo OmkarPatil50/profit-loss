@@ -55,7 +55,7 @@ input{
     border: none;
 
     color: var(--tertiary-color);
-   
+    text-overflow: ellipsis;
    text-align: left;
    cursor: pointer;
    background-color: var(--quat-color);
@@ -78,7 +78,8 @@ input{
 
 
 .output-box{
-    margin: 0;
+   display: block;
+   margin: auto;
     padding: 4rem;
     max-width: 600px;
 }
