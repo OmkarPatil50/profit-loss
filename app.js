@@ -57,6 +57,5 @@ function clickHandler(){
 
 
 
-
 submitButton.addEventListener("click", clickHandler)
-
+refreshBtn.addEventListener("click", refreshHandler)

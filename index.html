@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1 class="header-main">Where's my stocks??</h1>
 
+    <div class="content">
+<h1 class="header-main">Where's <span class="highlight">my stocks??</span> </h1>
+<hr>
 <main>
 <label for="initial-price">
     <input type="number" name="initial-price" id="initial-price" placeholder="Enter Initial Price Here" />
@@ -20,17 +22,40 @@
 <label for="current-price">
     <input type="number" name="current-price" id="current-price" placeholder="Enter Current Price Here" />
 </label>
-
-<button id="btn-submit">Check</button>
-
-<div class="output-box" id="output"></div>
-
-
+<div class="btn-submit">
+<button id="btn-submit">Check Here</button>
+</div>
 </main>
 
+<input type="button" value="↻" onClick="document.location.reload(true)" class="refresh">
 
 
-    
+
+<div class="output-box">
+<div class="output" id="output"></div>
+</div>
+
+
+
+
+
+
+
+
 </body>
+
+
+<footer class="footer">
+    <ol>
+        <li class="inline"><a href="https://www.instagram.com/_omkarpatil___/?hl=en"><img class="icon" src="/Images/icons8-instagram-white.svg"></li>
+        <li class="inline"><a href="https://github.com/OmkarPatil50"><img class="icon" src="/Images/icons8-github-white.svg" ></a></li>
+        <li class="inline"><a href="https://twitter.com/Omee50"><img class="icon" src="/Images/icons8-twitter.svg" ></a></li>
+        <li class="inline"><a href="https://www.linkedin.com/in/omkardpatil/"><img class="icon" src="/Images/icons8-linkedin-circled-white.svg" > </a></li>
+    </ol>
+  <br>
+  
+  </footer>
+
+
 <script src="/app.js"></script>
 </html>

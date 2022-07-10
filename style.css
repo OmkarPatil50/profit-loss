@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: black;
+    --secondary-color: #2563eb;
+    --tertiary-color: white;
+    --quat-color: #0f172a;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+ margin: 0;
+ background-color: var(--primary-color);
+
+  
+}
+
+.header-main{
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    color: var(--tertiary-color);
+    
+}
+
+.highlight{
+    color: var(--secondary-color);
+}
+
+
+hr{
+    margin:0rem  4rem 0rem 4rem;
+}
+
+
+main{
+    padding: 4rem;
+    text-align: center;
+}
+
+
+label{
+    display: block;
+    padding: 1rem;
+    
+
+}
+
+input{
+    font-weight: bold;
+    font-size: medium;
+    padding: 1.3rem 6rem 1.3rem 1rem;
+    border: solid pink 0.1rem;
+    color: var(--secondary-color);
+   text-align: center;
+   cursor: pointer;
+}
+
+.btn-submit{
+    padding: 2rem 2rem 0rem 2rem;
+ 
+}
+
+.btn-submit button{
+    padding: 0.7rem 4rem;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+.output-box{
+    padding: 4rem;
+    max-width: 600px;
+}
+
+.output{
+    font-size: x-large;
+    text-align: center;
+
+}
+
+
+.refresh{
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-left: 1rem;
+}
+
+.inline{
+    color: var(--primary-color);
+    display: inline;
+    font-weight: bold;
+    
+}
+
+.icon{
+    margin-left: 0;
+    max-width: 30px;
+    max-height: 30px;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+.footer{
+   
+    display: block;
+    max-width: 800px;
+   margin: auto;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+    border-bottom-left-radius: 2rem;
+    text-align: center;
+    border: black solid ;
+    
+}
