@@ -49,14 +49,18 @@ label{
 }
 
 input{
-    font-weight: bold;
-    font-size: medium;
-    padding: 1.3rem 6rem 1.3rem 1rem;
-    border: solid pink 0.1rem;
-    color: var(--secondary-color);
-   text-align: center;
+   font-size: medium;
+    
+    padding: 1.3rem 8rem 1.3rem 1rem;
+    border: none;
+
+    color: var(--tertiary-color);
+   
+   text-align: left;
    cursor: pointer;
+   background-color: var(--quat-color);
 }
+
 
 .btn-submit{
     padding: 2rem 2rem 0rem 2rem;
@@ -74,6 +78,7 @@ input{
 
 
 .output-box{
+    margin: 0;
     padding: 4rem;
     max-width: 600px;
 }
