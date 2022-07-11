@@ -51,7 +51,8 @@ label{
 input{
    font-size: medium;
     
-    padding: 1.3rem 8rem 1.3rem 1rem;
+  width: 350px;
+  padding: 1.2rem 1rem;
     border: none;
 
     color: var(--tertiary-color);
@@ -97,6 +98,7 @@ input{
     padding: 0.5rem 1rem;
     border: none;
     margin-left: 1rem;
+    width: 45px;
 }
 
 .inline{
